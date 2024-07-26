@@ -34,3 +34,15 @@
 <img height=120 src="https://github.com/isudiptodas/isudiptodas/blob/main/Projects/ISRO%20Redesigned/isro2.png" alt="isro"/>
 <img height=120 src="https://github.com/isudiptodas/isudiptodas/blob/main/Projects/ISRO%20Redesigned/isro3.png" alt="isro"/>
 </div>
+
+***
+###
+
+<h2>SNU Website Re-Designed</h2>
+<p>Another redesigned version of a college website with my tailwind knowledge and implementation. Is anything new ? Yes ! Hover effects, dark mode, full website will entire new look and colour palettes.</p>
+<div align="left">
+<img height=120 src="https://github.com/isudiptodas/isudiptodas/blob/main/Projects/SNU%20REDESIGNED/snu1.png" alt="snu"/>
+<img height=120 src="https://github.com/isudiptodas/isudiptodas/blob/main/Projects/SNU%20REDESIGNED/snu2.png" alt="snu"/>
+<img height=120 src="https://github.com/isudiptodas/isudiptodas/blob/main/Projects/SNU%20REDESIGNED/snu3.png" alt="snu"/>
+<img height=120 src="https://github.com/isudiptodas/isudiptodas/blob/main/Projects/SNU%20REDESIGNED/snu4.png" alt="snu"/>
+</div>
