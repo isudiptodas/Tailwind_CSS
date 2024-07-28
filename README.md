@@ -46,3 +46,15 @@
 <img height=120 src="https://github.com/isudiptodas/isudiptodas/blob/main/Projects/SNU%20REDESIGNED/snu3.png" alt="snu"/>
 <img height=120 src="https://github.com/isudiptodas/isudiptodas/blob/main/Projects/SNU%20REDESIGNED/snu4.png" alt="snu"/>
 </div>
+
+***
+###
+
+<h2>Wild Stone Website Re-Designed</h2>
+<div align="left">
+<img height=120 src="https://github.com/isudiptodas/isudiptodas/blob/main/Projects/WILD%20STONE/ws1.png" alt="wild-stone"/>
+<img height=120 src="https://github.com/isudiptodas/isudiptodas/blob/main/Projects/WILD%20STONE/ws2.png" alt="wild-stone"/>
+<img height=120 src="https://github.com/isudiptodas/isudiptodas/blob/main/Projects/WILD%20STONE/ws3.png" alt="wild-stone"/>
+<img height=120 src="https://github.com/isudiptodas/isudiptodas/blob/main/Projects/WILD%20STONE/ws4.png" alt="wild-stone"/>
+<img height=120 src="https://github.com/isudiptodas/isudiptodas/blob/main/Projects/WILD%20STONE/ws5.png" alt="wild-stone"/>
+</div>
