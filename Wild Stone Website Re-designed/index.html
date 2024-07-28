@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.wildstone.in/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="output.css">
+    <title>Wild Stone</title>
+</head>
+<body>
+
+    <div class="relative">
+
+        <div id="login-window" class="invisible phone:h-120 sm:h-130 md:h-135 lg:h-145 w-full bg-white absolute top-0 z-50 rounded-md font-montserrat flex justify-center flex-col">
+            <div class="phone:h-10 w-full bg-white flex justify-end items-center phone:px-6 phone:text-lg">
+                <i id="login-window-cross" class="fa-solid fa-xmark cursor-pointer"></i>
+            </div>
+
+            <div class="phone:h-56 w-full flex flex-col justify-center items-center">
+                <p class="phone:text-lg font-bold">Login to continue</p>
+                <div class="phone:h-50% w-full  flex flex-col justify-center items-center gap-3">
+                    <input type="text" placeholder="username of email" class="px-3 phone:text-xs rounded-2xl phone:w-70% phone:h-30% cursor-pointer border-solid border-2 border-black">
+                    <input type="password" placeholder="enter password" class="px-3 phone:text-xs rounded-2xl phone:w-70% phone:h-30% cursor-pointer border-solid border-2 border-black">
+                    <button class="px-3 phone:text-xs rounded-xl phone:w-50% lg:w-40% phone:h-20% bg-black text-white hover:scale-110 transition ease-in-out duration-300 font-bold cursor-pointer">Submit</button>
+                </div>
+                <p class="phone:text-s text-black">Dont'have an account ? <span class="text-blue-600 cursor-pointer">Create one</span></p>
+                
+            </div>
+        </div>
+
+        <!-- nav section -->
+        <nav>
+            <div class="phone:h-14 w-full lg:h-24 xl:h-32 bg-black flex justify-center items-center">
+                <div class="phone:h-50% phone:w-30% sm:w-20% overflow-hidden">
+                    <img class="phone:h-full w-full" src="https://th.bing.com/th/id/R.16a86b8872b906185ac1e8a7f4ac2b83?rik=olxmfIftPZpo2w&riu=http%3a%2f%2fwww.wildstone.in%2fcdn%2fshop%2ffiles%2fWS_WEB_LOGO_WHITE.png%3fv%3d1657778799&ehk=m6Mz%2fBKqsPEQC8bybU%2bnc5JKRm%2fF1bA4VNucCvQeyBE%3d&risl=&pid=ImgRaw&r=0" alt="">
+                </div>
+            </div>
+
+            <div class="phone:h-8 w-full lg:h-14 xl:h-28 bg-red-700 flex justify-between">
+                <div class="phone:h-full w-60% flex justify-center items-center font-montserrat">
+                    <p id="black-friday" class="text-white font-bold phone:text-s sm:text-sm lg:text-xl xl:text-3xl">BLACK FRIDAY SALE IS LIVE</p>
+                </div>
+                <div class="phone:h-full w-30% phone:text-s lg:text-lg xl:text-2xl text-white flex justify-evenly items-center">
+                    <i class="cursor-pointer fa-solid fa-magnifying-glass"></i>
+                    <i id="user-icon" class="cursor-pointer fa-solid fa-user"></i>
+                    <i class="cursor-pointer fa-solid fa-cart-shopping"></i>
+                    <i class="cursor-pointer fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- main section -->
+        <main>
+            <!-- page 1 -->
+             <div class="phone:h-48 sm:h-72 md:h-96 lg:h-125 xl:h-135 w-full overflow-hidden relative flex">
+                <div class="phone:h-full w-full bg-gradient-to-t from-black via-transparent to-transparent absolute bottom-0"></div>
+                <img class="phone:h-full w-full object-cover" src="./WILD STONE RESOURCES/hero-section.jpg" alt="">
+             </div>
+
+             <!-- page 2 -->
+              <div class="phone:h-24 sm:h-40 lg:h-60 w-full bg-black font-lexend-giga text-white font-extrabold flex flex-col justify-center items-center phone:text-4xl sm:text-6xl lg:text-8xl relative">
+                <h1>CONFIDENCE IN </h1>
+                <h1>EVERY SPRAY</h1>
+                <div class="phone:h-full w-full bg-gradient-to-t from-black via-transparent to-transparent absolute bottom-0"></div>
+              </div>
+
+              <!-- page 3 -->
+               <div class="phone:h-28 w-full sm:h-40 md:h-56 lg:h-72 bg-black">
+                 <div class="phone:h-20% w-full phone:text-s md:text-lg xl:text-2xl bg-black text-white font-bold flex justify-start items-center phone:px-5 md:px-14 xl:px-28">
+                    <p>Explore premium range</p>
+                 </div>
+                 <div class="phone:h-80% phone:w-full flex items-center justify-evenly relative phone:px-4">
+                    <div class="phone:h-full w-10% bg-gradient-to-r from-black to-transparent absolute left-0 flex justify-center items-center">
+                        <i class="fa-solid fa-chevron-left phone:text-s text-white xl:text-xl"></i>
+                    </div>
+
+                    <div class="phone:h-full phone:w-56 bg-black">
+                        <div class="phone:h-70% w-full flex justify-center items-center">
+                            <img class="phone:h-80% w-60% rounded-md" src="./WILD STONE RESOURCES/pr1.jpeg" alt="">
+                        </div>
+                        <div class="phone:h-30% w-full bg-black text-white flex flex-col justify-center items-center">
+                            <p class="font-light text-white phone:text-xs lg:text-sm">Wild Stone Edge</p>
+                            <p class="font-bold text-white phone:text-xs lg:text-sm">$20.00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="phone:h-full phone:w-56 bg-black">
+                        <div class="phone:h-70% w-full flex justify-center items-center">
+                            <img class="phone:h-80% w-60% rounded-md object-cover" src="./WILD STONE RESOURCES/pr2.jpg" alt="">
+                        </div>
+                        <div class="phone:h-30% w-full bg-black text-white flex flex-col justify-center items-center">
+                            <p class="font-light text-white phone:text-xs lg:text-sm">Wild Stone Edge Red</p>
+                            <p class="font-bold text-white phone:text-xs lg:text-sm">$21.00</p>
+                        </div>
+                    </div>
+
+                    <div class="phone:h-full phone:w-56 bg-black">
+                        <div class="phone:h-70% w-full flex justify-center items-center">
+                            <img class="phone:h-80% w-60% rounded-md object-cover" src="./WILD STONE RESOURCES/pr3.jpg" alt="">
+                        </div>
+                        <div class="phone:h-30% w-full bg-black text-white flex flex-col justify-center items-center">
+                            <p class="font-light text-white phone:text-xs lg:text-sm">Wild Stone Forest Spice</p>
+                            <p class="font-bold text-white phone:text-xs lg:text-sm">$43.99</p>
+                        </div>
+                    </div>
+
+                    <div class="phone:h-full phone:w-56 bg-black">
+                        <div class="phone:h-70% w-full flex justify-center items-center">
+                            <img class="phone:h-80% w-60% rounded-md object-cover" src="./WILD STONE RESOURCES/pr4.jpg" alt="">
+                        </div>
+                        <div class="phone:h-30% w-full bg-black text-white flex flex-col justify-center items-center">
+                            <p class="font-light text-white phone:text-xs lg:text-sm">Wild Stone Pyro</p>
+                            <p class="font-bold text-white phone:text-xs lg:text-sm">$25.99</p>
+                        </div>
+                    </div>
+                    
+                    <div class="phone:h-full w-10% bg-gradient-to-l from-black to-transparent absolute right-0 flex justify-center items-center">
+                        <i class="fa-solid fa-chevron-right phone:text-s text-white xl:text-xl"></i>
+                    </div>
+                 </div>
+               </div>
+
+                <!-- page 4 -->
+                 <div class="phone:h-24 w-full sm:h-40 lg:h-60 xl:h-72 bg-black flex justify-evenly items-center">
+                    <div class="phone:h-80% phone:w-40% bg-yellow-200 rounded-md relative overflow-hidden flex cursor-pointer">
+                        <img class="phone:h-full phone:w-full object-cover bg-top" src="./WILD STONE RESOURCES/grooming1.jpg" alt="">
+                        <div class="h-full w-full bg-gradient-to-t from-black to-transparent absolute bottom-0"></div>
+                        <div class="absolute phone:h-50% w-full phone:px-2 xl:px-5 phone:leading-3 bottom-1 font-montserrat">
+                            <p class="phone:text-s sm:text-sm md:text-lg xl:text-xl font-bold text-white bottom-0 absolute">Explore our <br>grooming range</p>  
+                        </div>
+                    </div>
+
+                    <div class="phone:h-80% phone:w-40% bg-yellow-200 rounded-md relative overflow-hidden flex cursor-pointer">
+                        <img class="phone:h-full phone:w-full object-cover bg-top" src="./WILD STONE RESOURCES/grooming2.jpg" alt="">
+                        <div class="h-full w-full bg-gradient-to-t from-black to-transparent absolute bottom-0"></div>
+                        <div class="absolute phone:h-50% w-full phone:px-2 xl:px-5 phone:leading-3 bottom-1 font-montserrat">
+                            <p class="phone:text-s sm:text-sm md:text-lg xl:text-xl font-bold text-white bottom-0 absolute">Buy one get <br>one offer</p>  
+                        </div>
+                    </div>
+                 </div>
+
+                 <!-- page 5 -->
+                  <div class="phone:h-14 w-full bg-black flex justify-center items-center">
+                    <h2 class="text-white font-bold font-montserrat phone:text-lg sm:text-2xl md:text-3xl lg:text-4xl">OUR NEW ARRIVALS</h2>
+                  </div>
+
+                 <!-- page 6 -->
+                  <div class="phone:h-44 sm:h-64 md:h-80 lg:h-100 xl:h-125 w-full relative">
+                    <img class="h-full w-full object-cover bg-bottom" src="./WILD STONE RESOURCES/new-arrivals.jpg" alt="">
+                    <div class="h-full w-full absolute bg-gradient-to-t from-black via-transparent to-transparent bottom-0"></div>
+                  </div>
+
+                  <!-- page 7 -->
+                   <div class="bg-black phone:h-4 lg:h-5 xl:h-9 w-full flex justify-center items-center">
+                        <p class="phone:text-s lg:text-sm text-white font-montserrat cursor-pointer font-light hover:underline">view all</p>
+                   </div>
+
+                   <!-- page 8 -->
+                    <div class="phone:h-44 sm:h-56 lg:h-72 xl:h-96 w-full bg-black flex justify-between items-center">
+                        <div class="phone:h-full w-40% flex justify-center items-center relative">
+                            <img id="code" class="phone:h-80% sm:h-90% md:h-90% md:w-40% phone:w-50% absolute phone:left-2 md:left-10 md:bottom-3 xl:left-14" src="./WILD STONE RESOURCES/no-gas-perfume2.png" alt="">
+                            <img id="edge" class="phone:h-80% sm:h-90% phone:w-80% md:h-80% md:w-60% absolute phone:right-1 md:right-10 md:bottom-3 xl:right-14" src="./WILD STONE RESOURCES/no-gas-perfume1.png" alt="">
+                        </div>
+                        <div class="phone:h-full w-60% phone:px-3 flex flex-col items-start justify-center">
+                            <h3 class="text-white font-bold font-lexend-giga phone:text-lg sm:text-2xl md:text-4xl xl:text-6xl">No Gas Perfumes</h3>
+                            <p class="phone:text-xs text-white md:text-s xl:text-lg">Wild Stone No Gas Perfumes offer a long-lasting and powerful
+                                fragrance experience. Designed for the modern man, these
+                                perfumes use a unique formula that eliminates gas, ensuring you
+                                get 100% perfume with every spray. Perfect for all-day
+                                freshness and confidence, Wild Stone No Gas Perfumes deliver a
+                                rich, invigorating scent that lasts longer and keeps you feeling
+                                fresh and bold. Unleash your wild side with a perfume that truly
+                                performs.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- page 9 -->
+                    <div class="bg-red-400 phone:h-44 sm:h-60 lg:h-96 xl:h-115 w-full relative flex">
+                        <img class="h-full w-full object-cover" src="./WILD STONE RESOURCES/code-variants.jpg" alt="">
+                        <div class="h-full w-full bg-gradient-to-t from-black to-transparent absolute flex justify-start items-end phone:px-4 phone:py-3 lg:px-6 lg:py-5">
+                            <p class="font-bold text-white font-montserrat phone:text-lg sm:text-xl lg:text-4xl">EXPLORE ALL WILD STONE CODE VARIANTS</p>
+                        </div>
+                    </div>
+
+                    <!-- page 10 -->
+                     <div class="phone:h-60 sm:h-80 md:h-100 lg:h-125 xl:h-135 w-full relative flex justify-center">
+                        <img class="h-full w-full object-cover" src="./WILD STONE RESOURCES/gifting-range.jpg" alt="">
+                        <div class="h-full w-full bg-gradient-to-t from-black via-transparent to-transparent absolute"></div>
+                        <h2 class="font-bold text-white phone:text-2xl md:text-4xl lg:text-6xl absolute phone:top-3 sm:top-6 md:top-16 lg:top-24 text-center">WILD STONE <br>GIFTING RANGE</h2>
+                     </div>
+
+                      <!-- page 11 -->
+                       <div class="phone:h-40 sm:h-60 md:h-72 lg:h-96 w-full bg-black">
+                            <div class="bg-black h-20% text-white flex items-center">
+                                <p class="phone:text-s font-bold phone:px-7 sm:px-12 lg:px-20 sm:text-lg">EXPLORE MORE GIFT OPTIONS</p>
+                            </div>
+                            <div class="phone:h-80% w-full relative flex justify-evenly">
+                                <div class="phone:h-full w-20% absolute left-0 bg-gradient-to-r from-black to-transparent flex justify-start items-center phone:px-4 lg:px-8">
+                                    <i class="fa-solid fa-chevron-left text-white phone:text-sm lg:text-lg cursor-pointer"></i>
+                                </div>
+                                <div class="h-full phone:w-25% bg-black flex flex-col items-center justify-center">
+                                    <img class="phone:h-70% phone:w-full object-cover rounded-md" src="./WILD STONE RESOURCES/gr1.jpg" alt="">
+                                    <p class="phone:text-xs text-white sm:text-sm lg:text-lg">Gift Box</p>
+                                </div>
+                                
+                                <div class="h-full phone:w-25% bg-black flex flex-col items-center justify-center">
+                                    <img class="phone:h-70% phone:w-full object-cover rounded-md" src="./WILD STONE RESOURCES/gr2.jpg" alt="">
+                                    <p class="phone:text-xs text-white sm:text-sm lg:text-lg">Strong Notes</p>
+                                </div>
+
+                                <div class="h-full phone:w-25% bg-black flex flex-col items-center justify-center">
+                                    <img class="phone:h-70% phone:w-full object-cover rounded-md" src="./WILD STONE RESOURCES/gr3.jpg" alt="">
+                                    <p class="phone:text-xs text-white sm:text-sm lg:text-lg">Customize Set</p>
+                                </div>
+                                <div class="phone:h-full w-20% absolute right-0 bg-gradient-to-l from-black to-transparent flex justify-end items-center phone:px-4 lg:px-8">
+                                    <i class="fa-solid fa-chevron-right text-white phone:text-sm lg:text-lg cursor-pointer"></i>
+                                </div>
+                            </div>
+                       </div>
+
+                       <!-- page 12 -->
+
+                        <div class="bg-blue-900 phone:h-10 xl:h-16 w-full flex justify-center items-center">
+                            <p class="phone:text-sm xl:text-lg font-bold text-white">SCENT OF MODERN MAN</p>
+                        </div>
+
+                        <!-- page 13 -->
+                         <div class="bg-black phone:h-32 lg:h-48 xl:h-60 w-full flex justify-between overflow-hidden">
+                            <div class="phone:h-full w-20% flex flex-col justify-center items-center gap-1">
+                                <img class="phone:h-70% w-60% rounded-md object-cover hover:scale-110 transition ease-in-out duration-200" src="./WILD STONE RESOURCES/ka.jpg" alt="">
+                                <p class="text-white phone:text-xs lg:text-s">Kartik Aaryan</p>
+                            </div>
+                            
+                            <div class=" phone:h-full w-20% flex flex-col justify-center items-center gap-1">
+                                <img class="phone:h-70% w-60% rounded-md object-cover hover:scale-110 transition ease-in-out duration-200" src="./WILD STONE RESOURCES/hc.jpg" alt="">
+                                <p class="text-white phone:text-xs lg:text-s">Henry Cavill</p>
+                            </div>
+
+                            <div class=" phone:h-full w-20% flex flex-col justify-center items-center gap-1">
+                                <img class="phone:h-70% w-60% rounded-md object-cover hover:scale-110 transition ease-in-out duration-200" src="./WILD STONE RESOURCES/ch.jpg" alt="">
+                                <p class="text-white phone:text-xs lg:text-s">Chris Hemsworth</p>
+                            </div>
+
+                            <div class=" phone:h-full w-20% flex flex-col justify-center items-center gap-1">
+                                <img class="phone:h-70% w-60% rounded-md object-cover hover:scale-110 transition ease-in-out duration-200" src="./WILD STONE RESOURCES/vd.jpg" alt="">
+                                <p class="text-white phone:text-xs lg:text-s">Vijay Deverakonda</p>
+                            </div>
+
+                            <div class=" phone:h-full w-20% flex flex-col justify-center items-center gap-1">
+                                <img class="phone:h-70% w-60% rounded-md object-cover hover:scale-110 transition ease-in-out duration-200" src="./WILD STONE RESOURCES/hr.jpg" alt="">
+                                <p class="text-white phone:text-xs lg:text-s">Hrithik Roshan</p>
+                            </div>
+                         </div>
+              
+        </main>
+
+        <!-- footer section -->
+        <footer>
+
+            <div class="phone:h-48 w-full bg-red-800 flex">
+                <div class="phone:h-full w-25% text-white flex flex-col justify-center items-start phone:text-xs sm:text-s phone:px-4 xl:px-10 xl:text-sm">
+                    <a class="hover:underline" href="">About Us</a>
+                    <a class="hover:underline" href="">Contact Us</a>
+                    <a class="hover:underline" href="">Our Partners</a>
+                    <a class="hover:underline" href="">Terms & Conditions</a>
+                    <a class="hover:underline" href="">Blog</a>
+                </div>
+                <div class="phone:h-full w-25% text-white flex flex-col justify-center items-start phone:text-xs sm:text-s phone:px-4 xl:px-5 xl:text-sm">
+                    <a class="hover:underline" href="">Perfumes</a>
+                    <a class="hover:underline" href="">Soaps</a>
+                    <a class="hover:underline" href="">Deodrants</a>
+                    <a class="hover:underline" href="">Grooming</a>
+                </div>
+                <div class="phone:h-full w-50% flex flex-col justify-center items-center text-white font-montserrat">
+                    <p class="font-bold phone:text-sm lg:text-lg text-center">Get updated with our latest news & offers</p>
+                    <p class="font-light phone:text-xs lg:text-s text-center space-y-2">Subscribe to our newsletter</p>
+                    <input class="phone:w-70% phone:h-7% lg:h-10% lg:w-50% rounded-lg text-opacity-15 phone:text-xs phone:px-3 phone:my-3" type="search" placeholder="enter your email">
+                    <input class="phone:w-70% phone:h-7% lg:h-10% lg:w-50% rounded-lg text-opacity-15 phone:text-xs phone:px-3 phone:my-3" type="password" placeholder="enter your password">
+                    <button class="bg-blue-600 text-white rounded-lg phone:h-7% lg:h-10% phone:w-40% phone:text-xs phone:-my-2 text-center cursor-pointer">SUBSCRIBE</button>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
